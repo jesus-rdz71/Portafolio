@@ -1,0 +1,64 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px; /* tamaño base para unidades relativas */
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 2em; /* relativa al font-size */
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem; /* relativo al font-size del html */
+}
+
+p {
+    font-size: 1em; /* igual al tamaño del font-size del body */
+}
+
+/* Secciones */
+main {
+    padding: 2em;
+}
+
+section {
+    margin-bottom: 3em;
+    background-color: white;
+    padding: 1.5em;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+ul {
+    margin-left: 2em;
+    font-size: 1em;
+}
+
+
+.ejemplo .caja-absoluta {
+    width: 300px; 
+    height: 100px;
+    background-color: #ffcccb;
+    margin-bottom: 1em;
+    text-align: center;
+    line-height: 100px;
+    font-weight: bold;
+}
+
+.ejemplo .caja-relativa {
+    width: 50%; 
+    height: 100px;
+    background-color: #add8e6;
+    text-align: center;
+    line-height: 100px;
+    font-weight: bold;
+}
