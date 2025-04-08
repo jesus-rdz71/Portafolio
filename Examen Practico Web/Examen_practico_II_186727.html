@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Examen Practico Parcial 2</title>
+
+	<style type="text/css">
+		body {
+       		text-align: center;
+    	}
+
+    	.galeria {
+       		display: flex;
+        	justify-content: center;
+        	align-items: center;
+        	gap: 15px;
+        	flex-wrap: wrap;
+        	background-color: #FFE4E1; /* Color de fondo (coral claro) */
+       		padding: 20px; /* Espaciado interno para que las imágenes no estén pegadas al borde */
+        	border-radius: 10px; /* Bordes redondeados (opcional) */
+    	}
+
+    	.imagen img {
+    	   	width: 350px; /* Ancho uniforme */
+    	   	height: 350px; /* Alto uniforme */
+    	    object-fit: cover; /* Ajusta las imágenes para que se vean bien en un tamaño fijo */
+    	    border: 2px solid darkgray; /* Borde coral */
+        	border-radius: 5px; /* Bordes redondeados */
+        	transition: all 0.3s ease;
+    	}
+	</style>
+</head>
+<body>
+
+	<h1> Examen práctico Parcial 2</h1>
+	<h2> Jesus Antonio Rodriguez Vazquez 186727</h2>
+
+	<button onmouseover="ocultar()" onmouseout="mostrar()">  Galeria de imagenes</button>
+
+	<div class="galeria">
+		
+		<div class="imagen">
+			<img src="imagenes/satoru.jpg" id="Personaje1" alt="Personaje1">
+		</div>
+		<div class="imagen">
+			<img src="imagenes/suguru.jpg" id="Personaje2" alt="Personaje2">
+		</div>
+		<div class="imagen">
+			<img src="imagenes/yuji.jpg" id="Personaje3" alt="Personaje3">
+		</div>
+		<div class="imagen">
+			<img src="imagenes/aoi.jpg" id="Personaje4" alt="Personaje4">
+		</div>
+
+	</div>
+
+	<script type="text/javascript">
+
+		function ocultar() {
+			document.getElementById("Personaje1").style.visibility="hidden";
+			document.getElementById("Personaje2").style.visibility="hidden";
+			document.getElementById("Personaje3").style.visibility="hidden";
+			document.getElementById("Personaje4").style.visibility="hidden";
+		}
+
+		function mostrar(){
+			document.getElementById("Personaje1").style.visibility="visible";
+			document.getElementById("Personaje2").style.visibility="visible";
+			document.getElementById("Personaje3").style.visibility="visible";
+			document.getElementById("Personaje4").style.visibility="visible";
+		}
+	</script>
+
+
+</body>
+</html>
