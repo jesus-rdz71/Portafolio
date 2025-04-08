@@ -1,0 +1,51 @@
+.capa1{
+	margin-left: 25%;
+	padding: 12px;
+}
+ul{
+	list-style-type: none;
+	width: 20%;
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	background-color: lightcoral;
+	position: fixed;
+}
+
+li a{
+	background-color: grey;
+	color: white;
+	display: block;
+	padding: 16px;
+	text-decoration: none;
+}
+
+li a:hover{
+	background-color: darkgrey;
+}
+
+li .activo{
+	background-color: darkslategrey;
+	color: white;
+
+}
+
+h1{
+  	font-family: "Bebas Neue", sans-serif;
+}
+
+h2{
+	font-family: "Quicksand", sans-serif;
+}
+
+@font-face{
+	font-family: Rock_Salt;
+	src: url("Rock_Salt/RockSalt-Regular.ttf")
+	format("truetype");
+
+}
+
+p{
+	font-family: "Rock_Salt";
+	size: 10px;
+}
