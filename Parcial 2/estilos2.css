@@ -1,0 +1,24 @@
+ul{
+	list-style-type: none;
+	width: 30%;
+	padding: 0px;
+	margin: 0px;
+}
+
+li a{
+	background-color: grey;
+	color: white;
+	display: block;
+	padding: 16px;
+	text-decoration: none;
+}
+
+li a:hover{
+	background-color: darkgrey;
+}
+
+li .activo{
+	background-color: darkslategrey;
+	color: white;
+
+}
