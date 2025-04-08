@@ -1,0 +1,28 @@
+table{
+	width: 100%;
+	border: 1px solid gray;
+	border-collapse: collapse;
+}
+td, th{
+	border: 1px soid gray;
+
+}
+/*//Fondos para las filas impares*/
+table tr:nth-child(odd){
+	background-color: white;
+}
+
+/*Fondo para las filas impares*/
+table tr:nth-child(even){
+	background-color: lightblue;
+}
+
+table tr th{
+	background-color: green;
+	color: white;
+}
+
+table tr:hover{
+	background-color: green;
+	color: white;
+}
