@@ -1,0 +1,244 @@
+body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #fff5e1;
+        }
+        
+        /* Hero Section */
+        .hero {
+            background-color: #f8c8dc;
+            text-align: center;
+            padding: 50px;
+            background-image: url('marco-margaritas.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            border: 15px solid transparent;
+        }
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 48px;
+            color: #000;
+            margin: 20px 0;
+        }
+        .hero img {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .cta-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: transparent;
+            border: 2px solid #000;
+            color: #000;
+            font-size: 16px;
+            text-decoration: none;
+        }
+
+        /* Gallery Section */
+        .gallery {
+            background-color: #78866b;
+            padding: 50px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .gallery img {
+            width: 30%;
+            height: auto;
+            border: 15px solid #a3b18a;
+            opacity: 0;
+            transform: translateY(30px);
+            animation: fadeInUp 1s ease-out forwards;
+        }
+        .gallery img:nth-child(1) { animation-delay: 0.3s; }
+        .gallery img:nth-child(2) { animation-delay: 0.6s; }
+        .gallery img:nth-child(3) { animation-delay: 0.9s; }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Animacion para personal */
+        .trabajador {
+            background-color: #78866b;
+            border: 15px solid #a3b18a;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 250px;
+        }
+        .trabajador img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .personal {
+            background-color: #78866b;
+            padding: 50px;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+        .personal img {
+            width: 90%;
+            height: auto;
+            border: 15px solid #a3b18a;
+            opacity: 0;
+            transform: translateY(30px);
+            animation: fadeInUp 1s ease-out forwards;
+        }
+        .personal img:nth-child(1) { animation-delay: 0.3s; }
+        .personal img:nth-child(2) { animation-delay: 0.6s; }
+        .personal img:nth-child(3) { animation-delay: 0.9s; }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Nueva Sección */
+        .new-section {
+            text-align: center;
+            background-color: #e3d5ca;
+            padding: 50px;
+        }
+        .new-section img {
+            width: 80%;
+            max-width: 600px;
+            border-radius: 15px;
+            border: 5px solid #6d6875;
+        }
+        .new-section h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 36px;
+            color: #6d6875;
+            margin-top: 20px;
+        }
+
+        /* Sección Menú */
+        .menu {
+            text-align: center;
+            background-color: #f4e1d2;
+            padding: 50px;
+        }
+        .menu h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 36px;
+            color: #6d6875;
+        }
+        .menu-items {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+        .menu-item {
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 250px;
+        }
+        .menu-item img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .menu-item h3 {
+            margin: 10px 0;
+            font-size: 24px;
+        }
+        .menu-item p {
+            font-size: 16px;
+            color: #555;
+        }
+        .menu-item span {
+            font-size: 18px;
+            font-weight: bold;
+            color: #b5838d;
+        }
+        .menu-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #b5838d;
+            color: #fff;
+            font-size: 16px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        /* Sección Promoción */
+        .promotion {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #b5838d;
+            padding: 50px;
+            color: #fff;
+            gap: 30px;
+        }
+        .promotion-text {
+            width: 50%;
+            font-size: 18px;
+            line-height: 1.6;
+            text-align: center;
+            justify-content: center;
+        }
+        .promotion-text2{
+            width: 95%;
+            font-size: 25px;
+            line-height: 1;
+            text-align: center;
+            justify-content: center;
+            display: flex;
+        }
+        .promotion h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 32px;
+        }
+        .promotion-image {
+            position: relative;
+            width: 40%;
+        }
+        .promotion-image img {
+            width: 100%;
+            border-radius: 20px;
+            border: 5px solid #fff;
+        }
+        .heart-decoration {
+            position: absolute;
+            bottom: 10px;
+            right: -15px;
+            background-color: pink;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .heart-decoration::before {
+            content: "♥";
+            font-size: 24px;
+            color: #444;
+        }
+        
