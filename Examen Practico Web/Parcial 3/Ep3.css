@@ -1,0 +1,41 @@
+body{
+	background-color: #378dd5;
+	font-family: arial;
+}
+.encabezado{
+	text-align: center;
+	color: blanchedalmond;
+	padding: 15px;
+}
+h2{
+	text-align: left;
+	color: white;
+}
+
+input[type=text]{
+		width: 80%;
+		border-sizing: border-box;
+		border: 2px solid lightgray;
+		border-radius: 3px;
+		margin: 5px;
+		line-height: 20px;
+}
+
+#r1 .tarea {
+		background-color: #e8f0fe;
+		padding: 10px;
+		margin: 10px 0;
+		border: 1px solid #ccc;
+		border-radius: 6px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+}
+#r1 .tarea button {
+		background-color: #ff4d4d;
+		color: white;
+		border: none;
+		padding: 5px 10px;
+		border-radius: 4px;
+		cursor: pointer;
+}
